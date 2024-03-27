@@ -1,0 +1,32 @@
+{
+  "name": "inventarios_bodegas",
+  "version": "1.0.0",
+  "description": "API con un CRUD para inventario de bodegas ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "npx nodemon index.js",
+    "debug": "node --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "joi",
+    "api",
+    "plain-text",
+    "json"
+  ],
+  "author": "Johan S Villamizar",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "express": "^4.19.2",
+    "joi": "^17.12.2",
+    "nodemailer": "^6.9.13",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

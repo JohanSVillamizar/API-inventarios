@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "003b2519-bdcc-48d7-921b-dff1b139a9ad",
+		"name": "Inventario_Bodegas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33598203"
+	},
+	"item": [
+		{
+			"name": "index",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/inventory"
+			},
+			"response": []
+		},
+		{
+			"name": "show",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/inventory/9"
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "  {\r\n  \"name\": \"Taladro\",\r\n  \"description\": \"Taladro Trump percutor con 5 brocas\",\r\n  \"quantity\": 5, // Cantidad negativa\r\n  \"location\": \"Pasillo C, Estantería 4\",\r\n  \"brand\": \"Trump\",\r\n  \"price\": 145.99,\r\n  \"entry_date\": \"2024-02-07\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/inventory/11"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:3000/inventory/9"
+			},
+			"response": []
+		},
+		{
+			"name": "store",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Taladro\",\r\n  \"description\": \"Taladro Trump percutor con 5 brocas\",\r\n  \"quantity\": 5, // Cantidad negativa\r\n  \"location\": \"Pasillo C, Estantería 3\",\r\n  \"brand\": \"Trump\",\r\n  \"price\": 145.99,\r\n  \"entry_date\": \"2024-02-07\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/inventory"
+			},
+			"response": []
+		}
+	]
+}

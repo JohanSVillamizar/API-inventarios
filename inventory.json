@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Lámpara LED",
+    "description": "Lámpara de escritorio con tecnología LED",
+    "quantity": 25,
+    "location": "Pasillo A, Estantería 1",
+    "brand": "Philips",
+    "price": 15.99,
+    "entry_date": "2023-01-15",
+    "serial_number":"8d4c9442-1575-4b5e-bf79-8f3b3db26832"
+  },
+  {
+    "id": 2,
+    "name": "Teclado inalámbrico",
+    "description": "Teclado con conexión Bluetooth",
+    "quantity": 15,
+    "location": "Pasillo A, Estantería 2",
+    "brand": "Logitech",
+    "price": 29.99,
+    "entry_date": "2023-02-20",
+    "serial_number": "b5b519f5-6927-46a6-8bc2-fac0cbdc2e10"
+  },
+  {
+    "id": 3,
+    "name": "Silla de oficina",
+    "description": "Silla ergonómica para escritorio",
+    "quantity": 10,
+    "location": "Pasillo A, Estantería 3",
+    "brand": "IKEA",
+    "price": 89.99,
+    "entry_date": "2023-03-10",
+    "serial_number":"73264c05-3920-43fd-8450-92983c41f42b"
+  },
+  {
+    "id": 4,
+    "name": "Monitor de 24 pulgadas",
+    "description": "Monitor LED Full HD",
+    "quantity": 8,
+    "location": "Pasillo A, Estantería 4",
+    "brand": "Samsung",
+    "price": 159.99,
+    "entry_date": "2023-04-05",
+    "serial_number":"fc1e2f1d-3342-4846-b066-07ff84f486cb"
+  },
+  {
+    "id": 5,
+    "name": "Caja de herramientas",
+    "description": "Caja de herramientas con varias herramientas",
+    "quantity": 5,
+    "location": "Pasillo B, Estantería 1",
+    "brand": "Stanley",
+    "price": 49.99,
+    "entry_date": "2023-05-15",
+    "serial_number":"ec2fd283-186d-44a3-82d4-226935e2aa2f"
+  },
+  {
+    "id": 6,
+    "name": "Impresora multifuncional",
+    "description": "Impresora, escáner y copiadora",
+    "quantity": 12,
+    "location": "Pasillo B, Estantería 2",
+    "brand": "HP",
+    "price": 199.99,
+    "entry_date": "2023-06-20",
+    "serial_number":"2e0e1a36-32f2-4986-a204-4d61a8d2d93e"
+  },
+  {
+    "id": 7,
+    "name": "Caja de cables",
+    "description": "Caja con diversos cables de conexión",
+    "quantity": 30,
+    "location": "Pasillo B, Estantería 3",
+    "brand": "Belkin",
+    "price": 19.99,
+    "entry_date": "2023-07-10",
+    "serial_number":"6a86a8b7-7686-4376-9d33-15dc0f7b86cf"
+  },
+  {
+    "id": 8,
+    "name": "Escritorio de oficina",
+    "description": "Escritorio de madera con cajones",
+    "quantity": 3,
+    "location": "Pasillo B, Estantería 4",
+    "brand": "IKEA",
+    "price": 149.99,
+    "entry_date": "2023-08-05",
+    "serial_number":"29c7dcbb-eb11-4cf0-b3cd-1e13777d7fcf"
+  },
+  {
+    "id": 9,
+    "name": "Mesa de trabajo",
+    "description": "Mesa de trabajo resistente con superficie de madera",
+    "quantity": 8,
+    "location": "Pasillo C, Estantería 1",
+    "brand": "IKEA",
+    "price": 99.99,
+    "entry_date": "2024-03-26",
+    "serial_number":"f39b7a46-1890-4e42-98a7-d74a27cb7e16"
+  },
+  {
+    "id": 10,
+    "name": "Lockers",
+    "description": "Lockers 5 x 5 para oficinas",
+    "quantity": 15,
+    "location": "Pasillo C, Estantería 2",
+    "brand": "IKEA",
+    "price": 129.99,
+    "entry_date": "2024-04-10",
+    "serial_number":"e8e56f5d-6795-473e-a79f-2a8a84adfa4e"
+  },
+  {
+    "id": 11,
+    "name": "Taladro",
+    "description": "Taladro Trump percutor con 5 brocas",
+    "quantity": 5,
+    "location": "Pasillo C, Estantería 4",
+    "brand": "Trump",
+    "price": 145.99,
+    "entry_date": "2024-02-07",
+    "serial_number":"71c89f8a-6ba2-4b85-83f0-441d271886d7"
+  },
+  {
+    "id": 12,
+    "name": "Pulidora",
+    "description": "Pulidora 6 pulgadas",
+    "quantity": 15,
+    "location": "Pasillo C, Estantería 3",
+    "brand": "Black&Decker",
+    "price": 123.99,
+    "entry_date": "2024-03-07",
+    "serial_number": "775db334-7323-4db0-95cc-bfce47380bd2"
+  }
+]
