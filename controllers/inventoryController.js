@@ -45,19 +45,17 @@ const inventoryController = {
       const inventoryData = fs.readFileSync(inventoryFilePath, 'utf8');
       let inventory = JSON.parse(inventoryData);
       
-      newItem.id = inventory.length + 1; // Generar un nuevo ID numérico e incremental
+      newItem.id = inventory.length + 1;
 
-      // Generar un nuevo serial_number utilizando uuid
       newItem.serial_number = uuidv4();
       
-      // Reordenar el objeto para que el ID esté primero
       const reorderedNewItem = Object.assign({ id: newItem.id},newItem);
 
-      inventory.push(reorderedNewItem); // Agregar el nuevo elemento ordenado al inventario
+      inventory.push(reorderedNewItem);
   
-      fs.writeFileSync(inventoryFilePath, JSON.stringify(inventory, null, 2)); // Escribir en el archivo
+      fs.writeFileSync(inventoryFilePath, JSON.stringify(inventory, null, 2));
       
-      res.status(201).json(reorderedNewItem); // Enviar la respuesta con el nuevo elemento ordenado
+      res.status(201).json(reorderedNewItem);
     } catch (err) {
       console.error(err);
       res.status(500).send('Server Error');
@@ -74,18 +72,13 @@ const inventoryController = {
       let inventory = JSON.parse(inventoryData);
       const itemIndex = inventory.findIndex(item => item.id === parseInt(itemId));
       if (itemIndex !== -1) {
-        // Actualizar los datos del elemento encontrado con los datos actualizados
         inventory[itemIndex] = { ...inventory[itemIndex], ...updatedData };
-        // Escribir los datos actualizados en el archivo
         fs.writeFileSync(inventoryFilePath, JSON.stringify(inventory, null, 2));
-        // Responder con el elemento actualizado
         res.json(inventory[itemIndex]);
       } else {
-        // Si el elemento no se encuentra, responder con un código de estado 404
         res.status(404).send('Item no encontrado');
       }
     } catch (err) {
-      // Manejar errores internos del servidor
       console.error(err);
       res.status(500).send('Server Error');
     }
