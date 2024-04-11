@@ -66,11 +66,17 @@ const inventoryController = {
       let inventory = JSON.parse(inventoryData);
       
       newItem.id = inventory.length + 1;
+<<<<<<< HEAD
 
 
       newItem.serial_number = uuidv4();
       
 
+=======
+
+      newItem.serial_number = uuidv4();
+      
+>>>>>>> 08aa9fff9317ae9a8f146599c8f9468900f3b685
       const reorderedNewItem = Object.assign({ id: newItem.id},newItem);
 
       inventory.push(reorderedNewItem);
@@ -94,6 +100,7 @@ const inventoryController = {
       let inventory = JSON.parse(inventoryData);
       const itemIndex = inventory.findIndex(item => item.id === parseInt(itemId));
       if (itemIndex !== -1) {
+<<<<<<< HEAD
 
         inventory[itemIndex] = { ...inventory[itemIndex], ...updatedData };
 
@@ -106,6 +113,15 @@ const inventoryController = {
       }
     } catch (err) {
 
+=======
+        inventory[itemIndex] = { ...inventory[itemIndex], ...updatedData };
+        fs.writeFileSync(inventoryFilePath, JSON.stringify(inventory, null, 2));
+        res.json(inventory[itemIndex]);
+      } else {
+        res.status(404).send('Item no encontrado');
+      }
+    } catch (err) {
+>>>>>>> 08aa9fff9317ae9a8f146599c8f9468900f3b685
       console.error(err);
       res.status(500).send('Server Error');
     }
