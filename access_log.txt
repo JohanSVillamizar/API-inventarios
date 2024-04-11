@@ -1,0 +1,12 @@
+10 4/2024 21 34 44 [GET] /inventory {} {} ::1
+10 4/2024 21 34 50 [GET] /inventory/9 {} {} ::1
+10 4/2024 21 34 59 [PUT] /inventory/11 {} {"name":"Taladro","description":"Taladro Trump percutor con 5 brocas","quantity":5,"location":"Pasillo C, Estantería 4","brand":"Trump","price":145.99,"entry_date":"2024-02-07"} ::1
+10 4/2024 21 35 3 [PUT] /inventory/11 {} {"name":"Taladro","description":"Taladro Trump percutor con 5 brocas","quantity":5,"location":"Pasillo C, Estantería 2","brand":"Trump","price":145.99,"entry_date":"2024-02-07"} ::1
+10 4/2024 21 35 13 [POST] /inventory {} {"name":"Pulidora","description":"Pulidora 6 pulgadas %%%","quantity":15,"location":"Pasillo C, Estantería 3","brand":"Black&Decker","price":123.99,"entry_date":"2024-03-07"} ::1
+10 4/2024 21 35 20 [GET] /inventory?filterBy=brand&filterValue=IKEA {"filterBy":"brand","filterValue":"IKEA"} {} ::1
+10 4/2024 21 35 25 [GET] /inventory?filterBy=brand&filterValue=IKEAS {"filterBy":"brand","filterValue":"IKEAS"} {} ::1
+10 4/2024 21 35 29 [GET] /inventory?filterBy=name&filterValue=Taladro {"filterBy":"name","filterValue":"Taladro"} {} ::1
+10 4/2024 21 35 33 [GET] /inventory?filterBy=location&filterValue=Pasillo%20C,%20Estanter%C3%ADa%202 {"filterBy":"location","filterValue":"Pasillo C, Estantería 2"} {} ::1
+10 4/2024 21 35 40 [PUT] /inventory {} {} ::1
+10 4/2024 21 44 22 [PUT] /inventory/11 {} {"name":"Taladro","description":"Taladro Trump percutor con 5 brocas","quantity":5,"location":"Pasillo C, Estantería 3","brand":"Trump","price":145.99,"entry_date":"2024-02-07"} ::1
+10 4/2024 21 45 4 [PUT] /inventory/11 {} {"name":"Taladro","description":"Taladro Trump percutor con 5 brocas","quantity":5,"location":"Pasillo C, Estantería 2","brand":"Trump","price":145.99,"entry_date":"2024-02-07"} ::1

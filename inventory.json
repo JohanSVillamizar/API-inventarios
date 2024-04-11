@@ -8,7 +8,8 @@
     "brand": "Philips",
     "price": 15.99,
     "entry_date": "2023-01-15",
-    "serial_number":"8d4c9442-1575-4b5e-bf79-8f3b3db26832"
+    "serial_number": "8d4c9442-1575-4b5e-bf79-8f3b3db26832",
+    "updated_at": "2024-04-01 08:00"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "brand": "Logitech",
     "price": 29.99,
     "entry_date": "2023-02-20",
-    "serial_number": "b5b519f5-6927-46a6-8bc2-fac0cbdc2e10"
+    "serial_number": "b5b519f5-6927-46a6-8bc2-fac0cbdc2e10",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "brand": "IKEA",
     "price": 89.99,
     "entry_date": "2023-03-10",
-    "serial_number":"73264c05-3920-43fd-8450-92983c41f42b"
+    "serial_number": "73264c05-3920-43fd-8450-92983c41f42b",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "brand": "Samsung",
     "price": 159.99,
     "entry_date": "2023-04-05",
-    "serial_number":"fc1e2f1d-3342-4846-b066-07ff84f486cb"
+    "serial_number": "fc1e2f1d-3342-4846-b066-07ff84f486cb",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "brand": "Stanley",
     "price": 49.99,
     "entry_date": "2023-05-15",
-    "serial_number":"ec2fd283-186d-44a3-82d4-226935e2aa2f"
+    "serial_number": "ec2fd283-186d-44a3-82d4-226935e2aa2f",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "brand": "HP",
     "price": 199.99,
     "entry_date": "2023-06-20",
-    "serial_number":"2e0e1a36-32f2-4986-a204-4d61a8d2d93e"
+    "serial_number": "2e0e1a36-32f2-4986-a204-4d61a8d2d93e",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "brand": "Belkin",
     "price": 19.99,
     "entry_date": "2023-07-10",
-    "serial_number":"6a86a8b7-7686-4376-9d33-15dc0f7b86cf"
+    "serial_number": "6a86a8b7-7686-4376-9d33-15dc0f7b86cf",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "brand": "IKEA",
     "price": 149.99,
     "entry_date": "2023-08-05",
-    "serial_number":"29c7dcbb-eb11-4cf0-b3cd-1e13777d7fcf"
+    "serial_number": "29c7dcbb-eb11-4cf0-b3cd-1e13777d7fcf",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "brand": "IKEA",
     "price": 99.99,
     "entry_date": "2024-03-26",
-    "serial_number":"f39b7a46-1890-4e42-98a7-d74a27cb7e16"
+    "serial_number": "f39b7a46-1890-4e42-98a7-d74a27cb7e16",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 10,
@@ -107,18 +116,21 @@
     "brand": "IKEA",
     "price": 129.99,
     "entry_date": "2024-04-10",
-    "serial_number":"e8e56f5d-6795-473e-a79f-2a8a84adfa4e"
+    "serial_number": "e8e56f5d-6795-473e-a79f-2a8a84adfa4e",
+    "updated_at": "2024-04-10 21:19"
   },
   {
     "id": 11,
     "name": "Taladro",
     "description": "Taladro Trump percutor con 5 brocas",
     "quantity": 5,
-    "location": "Pasillo C, Estantería 4",
+    "location": "Pasillo C, Estantería 2",
     "brand": "Trump",
     "price": 145.99,
     "entry_date": "2024-02-07",
-    "serial_number":"71c89f8a-6ba2-4b85-83f0-441d271886d7"
+    "serial_number": "71c89f8a-6ba2-4b85-83f0-441d271886d7",
+    "updated_at": "2024-04-10 21:19",
+    "created_at": "2024-04-10 21:45"
   },
   {
     "id": 12,
@@ -129,6 +141,7 @@
     "brand": "Black&Decker",
     "price": 123.99,
     "entry_date": "2024-03-07",
-    "serial_number": "775db334-7323-4db0-95cc-bfce47380bd2"
+    "serial_number": "775db334-7323-4db0-95cc-bfce47380bd2",
+    "updated_at": "2024-04-10 21:19"
   }
 ]

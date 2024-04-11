@@ -7,6 +7,136 @@
 	},
 	"item": [
 		{
+			"name": "Pruebas_filtrado",
+			"item": [
+				{
+					"name": "filter_brand",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/inventory?filterBy=brand&filterValue=IKEA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"inventory"
+							],
+							"query": [
+								{
+									"key": "filterBy",
+									"value": "brand"
+								},
+								{
+									"key": "filterValue",
+									"value": "IKEA"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter_brand_unknown",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/inventory?filterBy=brand&filterValue=IKEAS",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"inventory"
+							],
+							"query": [
+								{
+									"key": "filterBy",
+									"value": "brand"
+								},
+								{
+									"key": "filterValue",
+									"value": "IKEAS"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter_name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/inventory?filterBy=name&filterValue=Taladro",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"inventory"
+							],
+							"query": [
+								{
+									"key": "filterBy",
+									"value": "name"
+								},
+								{
+									"key": "filterValue",
+									"value": "Taladro"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "filter_location",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/inventory?filterBy=location&filterValue=Pasillo C, Estantería 2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"inventory"
+							],
+							"query": [
+								{
+									"key": "filterBy",
+									"value": "location"
+								},
+								{
+									"key": "filterValue",
+									"value": "Pasillo C, Estantería 2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_at",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": "http://localhost:3000/inventory"
+					},
+					"response": []
+				}
+			]
+		},
+		{
 			"name": "index",
 			"request": {
 				"method": "GET",
@@ -31,7 +161,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "  {\r\n  \"name\": \"Taladro\",\r\n  \"description\": \"Taladro Trump percutor con 5 brocas\",\r\n  \"quantity\": 5, // Cantidad negativa\r\n  \"location\": \"Pasillo C, Estantería 4\",\r\n  \"brand\": \"Trump\",\r\n  \"price\": 145.99,\r\n  \"entry_date\": \"2024-02-07\"\r\n  }",
+					"raw": "  {\r\n  \"name\": \"Taladro\",\r\n  \"description\": \"Taladro Trump percutor con 5 brocas\",\r\n  \"quantity\": 5,\r\n  \"location\": \"Pasillo C, Estantería 2\",\r\n  \"brand\": \"Trump\",\r\n  \"price\": 145.99,\r\n  \"entry_date\": \"2024-02-07\"\r\n  }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -58,7 +188,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\": \"Taladro\",\r\n  \"description\": \"Taladro Trump percutor con 5 brocas\",\r\n  \"quantity\": 5, // Cantidad negativa\r\n  \"location\": \"Pasillo C, Estantería 3\",\r\n  \"brand\": \"Trump\",\r\n  \"price\": 145.99,\r\n  \"entry_date\": \"2024-02-07\"\r\n}\r\n",
+					"raw": "  {\r\n  \"name\": \"Pulidora\",\r\n  \"description\": \"Pulidora 6 pulgadas %%%\",\r\n  \"quantity\": 15,\r\n  \"location\": \"Pasillo C, Estantería 3\",\r\n  \"brand\": \"Black&Decker\",\r\n  \"price\": 123.99,\r\n  \"entry_date\": \"2024-03-07\"\r\n  }\r\n",
 					"options": {
 						"raw": {
 							"language": "json"

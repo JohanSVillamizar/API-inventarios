@@ -2,8 +2,10 @@
 const express = require('express');
 const app = express();
 const inventoryRoutes = require('./routes/inventoryRoutes');
+const logRequestMiddleware = require('./middleware/logRequest');
 
 app.use(express.json());
+app.use(logRequestMiddleware);
 
 // Routes
 app.use('/inventory', inventoryRoutes);
